@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Santuario de Schoenstatt – San Juan</title>
+  <meta name="description" content="Página informativa del Santuario de Schoenstatt en San Juan: horarios, cómo llegar, galería y contacto." />
+  <link rel="icon" href="/assets/favicon.png" />
+  
+  <!-- Tipografías libres -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span class="logo-badge" aria-hidden="true"></span>
+        <span>Santuario de Schoenstatt – San Juan</span>
+      </div>
+      <nav class="menu" aria-label="Primaria">
+        <a href="#sobre">Sobre el santuario</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#llegar">Cómo llegar</a>
+        <a href="#galeria">Galería</a>
+        <a class="btn primary" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <h1>Un lugar de encuentro, fe y esperanza</h1>
+        <p>Bienvenido/a al Santuario de Schoenstatt en San Juan. Aquí encontrarás información práctica: horarios de misa, cómo llegar, próximas actividades y fotos del lugar.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+          <a class="btn primary" href="#horarios">Ver horarios</a>
+          <a class="btn" href="#llegar">Cómo llegar</a>
+        </div>
+      </div>
+
+      <div class="hero-card" role="note" aria-label="Tarjeta rápida">
+        <div><strong>Dirección:</strong> <span>📍 (Completar calle y localidad)</span></div>
+        <div><strong>Contacto:</strong> <a href="mailto:info@santuario-sj.ar">info@santuario-sj.ar</a> · <a href="tel:+54XXXXXXXXX">+54 (XXX) XXX‑XXXX</a></div>
+        <div><strong>Redes:</strong> <a href="#" target="_blank" rel="noopener">Instagram</a> · <a href="#" target="_blank" rel="noopener">Facebook</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sobre ===== -->
+  <section id="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre el santuario</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Historia</h3>
+          <p>Breve reseña de la historia del Santuario de Schoenstatt en San Juan. Podés mencionar fechas claves, la comunidad y su misión.</p>
+        </article>
+        <article class="card">
+          <h3>Misión</h3>
+          <p>Texto sobre espiritualidad, el movimiento y el vínculo con la comunidad local. Mantener 4–5 líneas como máximo.</p>
+        </article>
+        <article class="card">
+          <h3>Servicios</h3>
+          <p>Misas, confesiones, pastoral juvenil, grupos de familias, etc. También podés enlazar a un PDF o WhatsApp de contacto.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Horarios ===== -->
+  <section id="horarios" class="muted">
+    <div class="container">
+      <h2 class="section-title">Horarios</h2>
+      <ul class="schedule">
+        <li><span>Misa dominical</span> <strong>Dom 10:00</strong></li>
+        <li><span>Misa semanal</span> <strong>Mié 19:30</strong></li>
+        <li><span>Confesiones</span> <strong>30 min antes de cada misa</strong></li>
+      </ul>
+      <p style="margin-top:12px; font-size:.95rem; opacity:.85;">*Ejemplo. Ajustar según calendario real.</p>
+    </div>
+  </section>
+
+  <!-- ===== Cómo llegar ===== -->
+  <section id="llegar">
+    <div class="container">
+      <h2 class="section-title">Cómo llegar</h2>
+      <p>Ubicación aproximada del santuario (reemplazá el mapa por el iframe de Google Maps con la dirección exacta).</p>
+      <div class="map-wrap">
+        <!-- REEMPLAZAR por iframe real de Google Maps (Compartir > Insertar un mapa) -->
+        <iframe title="Mapa de ubicación" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=San%20Juan%2C%20Argentina&t=m&z=13&output=embed&iwloc=near"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Galería ===== -->
+  <section id="galeria" class="muted">
+    <div class="container">
+      <h2 class="section-title">Galería</h2>
+      <div class="gallery">
+        <img src="assets/foto1.jpg" alt="Vista del santuario 1" />
+        <img src="assets/foto2.jpg" alt="Vista del santuario 2" />
+        <img src="assets/foto3.jpg" alt="Vista del santuario 3" />
+      </div>
+      <p style="margin-top:10px; font-size:.95rem; opacity:.85;">*Colocá 6–9 fotos livianas (≤ 200 KB) para que carguen rápido.</p>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>Escribinos</h3>
+          <p>Para intenciones, bautismos o información general.</p>
+          <p><a class="btn" href="mailto:info@santuario-sj.ar">Enviar email</a></p>
+        </div>
+        <div class="card">
+          <h3>WhatsApp</h3>
+          <p>Canal directo con la secretaría.</p>
+          <p><a class="btn" href="https://wa.me/54XXXXXXXXX" target="_blank" rel="noopener">Abrir WhatsApp</a></p>
+        </div>
+        <div class="card">
+          <h3>Donaciones</h3>
+          <p>Alias/CBU o botón de pago. Agregar aclaraciones.</p>
+          <p><a class="btn primary" href="#">Ver datos</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between;">
+      <small>© <span id="y"></span> Santuario de Schoenstatt – San Juan. Todos los derechos reservados.</small>
+      <small>Hecho con ♥ en San Juan · <a href="#">Política de privacidad</a></small>
+    </div>
+  </footer>
+
+  <script>
+    // Año dinámico
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
